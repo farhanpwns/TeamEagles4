@@ -79,17 +79,6 @@ public class HomePageItems extends CommonAPI {
         return bl;
     }
 
-    public boolean clickLogo() {
-        boolean enabled = logo.isEnabled();
-        return enabled;
-    }
-
-    public boolean orderProtectionButtonStatus() {
-        boolean enabled = orderProtectionButton.isEnabled();
-        return enabled;
-
-    }
-
     public String tradeAlertSubscription() throws InterruptedException {
         emailBoxToSubscribeForTradeAlert.sendKeys("testdata.islam@gmail.com");
         tradeAlertSubscriptionButton.click();
